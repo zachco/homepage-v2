@@ -6,14 +6,15 @@ body {
   margin: 0 auto;
   max-width: 66ch;
   padding: 1rem;
+  color: #111;
 }
+
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
   margin: 2.5rem 0 1rem;
 }
 ul li,
@@ -62,7 +63,7 @@ hr {
   margin: 2rem 0;
 }
 #menu {
-  text-align: center;
+  text-align: left;
   font-size: 18px;
   list-style-type: none;
   padding: 0;
@@ -75,9 +76,16 @@ hr {
 #menu li a {
   text-decoration: none;
 }
+.project {
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
 .project-img {
   border-radius: 4px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+.project-details {
+  margin-bottom: 1.5rem;
 }
 footer {
   text-align: center;
