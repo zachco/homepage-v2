@@ -12,6 +12,7 @@ body {
   max-width: 66ch;
   padding: 1rem;
   color: #111;
+  background-color: #fff;
 }
 
 h1,
@@ -28,10 +29,10 @@ ol li {
 }
 a,
 a:visited {
-  color: black;
+  color: #111;
 }
 a:hover {
-  color: dodgerblue;
+  color: #0074D9;
 }
 img {
   height: auto;
