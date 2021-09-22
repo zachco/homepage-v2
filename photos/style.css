@@ -206,7 +206,7 @@
   a[href*="//"]:after { 
     font-weight: 300;
     font-size: .85em;
-    content: "\2197"; /* top right arrow: ↗ */
+    /* content: "\2197"; /* top right arrow: ↗ */
     color: var(--textcolor);
     opacity: .25;
   }
