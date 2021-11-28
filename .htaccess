@@ -1,10 +1,3 @@
 RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^([^\.]+)$ $1.html [NC,L]
-
-RewriteCond %{HTTP_HOST} ^(www\.)?zach-cohen\.com$
-RewriteRule ^photos/(.*)$ http://photos.zach-cohen.com/$1 [L,QSA,R=301]
-
-RewriteCond %{HTTP_HOST} ^photos\.zach-cohen\.com$
-RewriteCond %{REQUEST_URI} !^photos/
-RewriteRule ^(.*)$ /photos/$1 [L,QSA]
