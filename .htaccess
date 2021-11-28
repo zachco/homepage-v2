@@ -1,4 +1,6 @@
 RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^([^\.]+)$ $1.html [NC,L]
-Redirect /photos http://photos.zach-cohen.com
+
+RewriteBase /
+RewriteRule ^/photos/(.*)$ http://photos.zach-cohen.com/$1 [R=301,L]
