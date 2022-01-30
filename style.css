@@ -110,7 +110,7 @@ footer li a {
   text-decoration: none;
 }
 
-.selected-work h1 {
-  margin-top: 0px;
+.selected-work h2 {
+  margin-top: 24px;
   margin-bottom: 60px;
 }
