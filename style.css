@@ -109,3 +109,8 @@ footer li {
 footer li a {
   text-decoration: none;
 }
+
+.selected-work h1 {
+  margin-top: 0px;
+  margin-bottom: 60px;
+}
