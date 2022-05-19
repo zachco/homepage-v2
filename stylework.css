@@ -10,8 +10,8 @@ body {
   margin: 0 auto;
   max-width: 66ch;
   padding: 1rem;
-  color: #004095;
-  background-color: #fff;
+  color: #fff;
+  background-color: #004095;
 }
 
 h1,
@@ -28,10 +28,10 @@ ol li {
 }
 a,
 a:visited {
-  color: #004095;
+  color: #fff;
 }
 a:hover {
-  color: #348360;
+  color: #69C39B;
 }
 img {
   height: auto;
@@ -98,7 +98,7 @@ footer {
   list-style-type: none;
   padding: 0;
   margin-top: 2rem;
-  border-top: 2px dotted #004095;
+  border-top: 2px dotted #fff;
 }
 footer li {
   display: inline;
